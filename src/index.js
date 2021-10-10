@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import './fonts/optima-cufonfonts-webfont/Optima Medium.woff';
+import './fonts/optima-cufonfonts-webfont/OPTIMA_B.woff';
+import './fonts/optima-cufonfonts-webfont/OPTIMA.woff';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

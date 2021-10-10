@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './graphics/mc_skull_350x276.png';
 
 function App() {
   return (
