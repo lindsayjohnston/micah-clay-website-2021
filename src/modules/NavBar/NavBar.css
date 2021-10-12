@@ -1,0 +1,10 @@
+nav {
+    height: 100px;
+}
+
+.borderDiv{
+    height: 100%;
+    width: 90%;
+    border-bottom: 1px var(--dark-color-1) solid;
+    margin: auto;
+}

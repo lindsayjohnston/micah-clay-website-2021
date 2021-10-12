@@ -1,3 +1,9 @@
+:root {
+  --dark-color-1: #1D1E35;
+  --light-color-1: #faf5ea; 
+  --main-font:
+}
+
 body {
   margin: 0;
   font-family: 'OptimaMedium', 'OptimaB', 'Optima';
@@ -13,21 +19,21 @@ code {
 @font-face {
   font-family: 'Optima';
   src: local("Optima"), 
-    url('./fonts/optima-cufonfonts-webfont/OPTIMA.woff');
+    url('./assets/fonts/optima-cufonfonts-webfont/OPTIMA.woff');
     font-weight: normal;
 }
 
 @font-face {
   font-family: 'OptimaMedium';
   src: local("OptimaMedium"), 
-    url('./fonts/optima-cufonfonts-webfont/Optima Medium.woff');
+    url('./assets/fonts/optima-cufonfonts-webfont/Optima Medium.woff');
     font-weight: 500;
 }
 
 @font-face {
   font-family: 'OptimaB';
   src: local("OptimaB"), 
-    url('./fonts/optima-cufonfonts-webfont/OPTIMA_B.woff');
+    url('./assets/fonts/optima-cufonfonts-webfont/OPTIMA_B.woff');
     font-weight: bold;
 }
 
