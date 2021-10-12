@@ -1,44 +1,6 @@
-:root {
-  --dark-color-1: #1D1E35;
-  --light-color-1: #faf5ea; 
-  --main-font:
-}
-
 .App {
   text-align: center;
   background-color: var(--light-color-1);
-  height: 100vh;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
-
-.App-header {
-  background-color: var(--light-color-1);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: var(--dark-color-1);
-  font-family: 'OptimaItalic';
-}
-
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 300vh;
+  position: relative;
 }

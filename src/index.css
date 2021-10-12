@@ -1,7 +1,7 @@
 :root {
   --dark-color-1: #1D1E35;
   --light-color-1: #faf5ea; 
-  --main-font:
+  --hover-link-color: #4c4c50;
 }
 
 body {
@@ -9,6 +9,15 @@ body {
   font-family: 'OptimaMedium', 'OptimaB', 'Optima';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover{
+  color: var(--hover-link-color);
 }
 
 code {

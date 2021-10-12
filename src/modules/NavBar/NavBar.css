@@ -1,5 +1,7 @@
 nav {
     height: 100px;
+    position: absolute;
+    width: 100%;
 }
 
 .borderDiv{
@@ -9,4 +11,6 @@ nav {
     margin: auto;
     display: flex;
     background-color: pink;
+    align-items: center;
+    justify-content: space-between;
 }
