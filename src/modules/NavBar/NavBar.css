@@ -7,4 +7,6 @@ nav {
     width: 90%;
     border-bottom: 1px var(--dark-color-1) solid;
     margin: auto;
+    display: flex;
+    background-color: pink;
 }
