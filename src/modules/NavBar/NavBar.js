@@ -1,8 +1,10 @@
 import './NavBar.css';
 import logo from '../../assets/graphics/mc_skull_web_logo_106x78.png';
 
-const navBar = (props) => (
-    <nav>
+const navBar = (props) => {
+
+return(
+    <nav >
         <div className= "borderDiv" id="top" >
             <div className="logo"> 
                 <a href="#top">
@@ -15,7 +17,10 @@ const navBar = (props) => (
 
         </div>
     </nav>
-);
+
+)
+    
+};
 
 export default navBar;
 

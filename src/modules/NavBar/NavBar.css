@@ -1,6 +1,7 @@
 nav {
     height: 100px;
-    position: absolute;
+    position: fixed;
+    top: 0;
     width: 100%;
 }
 
@@ -13,4 +14,10 @@ nav {
     background-color: pink;
     align-items: center;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 500px){
+    nav{
+        display: none;
+    }
 }
