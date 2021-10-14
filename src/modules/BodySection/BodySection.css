@@ -3,3 +3,8 @@
     background-color: darkseagreen;
     margin-top: 15px;
 }
+
+.separatorGraphic {
+    max-width: 700px;
+    width: 80%;
+}

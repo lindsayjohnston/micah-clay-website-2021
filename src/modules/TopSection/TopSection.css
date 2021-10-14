@@ -1,5 +1,4 @@
 .topSection {
-    /* height: 500px; */
     background-color: rgb(224, 145, 240);
     margin-top: 15px;
     display: flex;
@@ -10,28 +9,14 @@
 
 .headerGraphic {
     width: 80%;
-    max-width: 800px;
-    display: unset;
-    /* ^^this makes Graphic not strech in flex */
+    max-width: 700px;
 }
 
-.headerGraphicMobile {
-    display: none;
+.headerPhoto {
+    max-width: 600px;
+    width: 70%;
+    padding: 20px 0px 40px 0px;
 }
 
 
-/* @media screen and (max-width: 500px){
-    .headerGraphic{
-        display: none;
-    }
-} */
 
-@media screen and (max-width: 500px){
-    .headerGraphic{
-        display: none;
-    }
-
-    .headerGraphicMobile {
-        display: unset;
-    }
-}
