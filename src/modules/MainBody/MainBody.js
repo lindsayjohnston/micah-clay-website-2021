@@ -26,8 +26,13 @@ class MainBody extends Component {
         return (
             <div className="mainBody">
                 <TopSection />
-                <BodySection />
-                <BodySection />
+                {sectionInfo.map (item => (
+                    <BodySection 
+                        key = {item.title}
+                        title = {item.title}
+                        content = {item.content}
+                    />
+                ))}
             </div>
         )
 

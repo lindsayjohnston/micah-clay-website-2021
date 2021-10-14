@@ -4,6 +4,10 @@
   --hover-link-color: #4c4c50;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'OptimaMedium', 'OptimaB', 'Optima';
