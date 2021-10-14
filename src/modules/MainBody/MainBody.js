@@ -1,20 +1,22 @@
 import TopSection from '../TopSection/TopSection.js';
 import BodySection from  '../BodySection/BodySection.js';
 import { Component } from 'react';
+import promoVideo from '../../assets/videos/promoVideo.mp4';
+import testPhoto from '../../assets/photos/mc-bw-photo-on-deck-700x676px.png';
 import './MainBody.css';
 
 const sectionInfo =[
     {
         title: "About",
-        content: "This will be content."
+        content: "This will be a bio."
     },
     {
         title: "Music",
-        content: "This will be content."
+        content: <video src={promoVideo} controls className= "sectionContent"></video>
     },
     {
         title: "Contact",
-        content: "This will be content."
+        content: "This will be contact info."
     }
 ]
 
@@ -26,6 +28,11 @@ class MainBody extends Component {
         return (
             <div className="mainBody">
                 <TopSection />
+
+                
+
+
+                
                 {sectionInfo.map (item => (
                     <BodySection 
                         key = {item.title}
