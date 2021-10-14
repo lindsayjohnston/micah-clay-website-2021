@@ -1,6 +1,7 @@
 import './Layout.css';
 import { Component } from 'react';
 import NavBar from '../NavBar/NavBar.js';
+import MainBody from '../MainBody/MainBody';
 // import MainBody from '../MainBody/MainbBody.js';
 // import Footer from '../Footer/Footer.js';
 
@@ -10,6 +11,7 @@ class Layout extends Component {
         return (
             <div class= "layout">
                 <NavBar/>
+                <MainBody />
                 
                 {/* <MainBody />
                 <MobileNav />

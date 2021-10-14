@@ -1,0 +1,37 @@
+.topSection {
+    /* height: 500px; */
+    background-color: rgb(224, 145, 240);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerGraphic {
+    width: 80%;
+    max-width: 800px;
+    display: unset;
+    /* ^^this makes Graphic not strech in flex */
+}
+
+.headerGraphicMobile {
+    display: none;
+}
+
+
+/* @media screen and (max-width: 500px){
+    .headerGraphic{
+        display: none;
+    }
+} */
+
+@media screen and (max-width: 500px){
+    .headerGraphic{
+        display: none;
+    }
+
+    .headerGraphicMobile {
+        display: unset;
+    }
+}
