@@ -3,10 +3,22 @@ import BodySection from  '../BodySection/BodySection.js';
 import { Component } from 'react';
 import './MainBody.css';
 
-class MainBody extends Component {
-    //state
-    //functions
+const sectionInfo =[
+    {
+        title: "About",
+        content: "This will be content."
+    },
+    {
+        title: "Music",
+        content: "This will be content."
+    },
+    {
+        title: "Contact",
+        content: "This will be content."
+    }
+]
 
+class MainBody extends Component {
     render () {
     
         //functions?

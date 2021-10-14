@@ -1,6 +1,6 @@
 .topSection {
     background-color: rgb(224, 145, 240);
-    margin-top: 15px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
