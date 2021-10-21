@@ -1,6 +1,4 @@
 .mainBody{
-    /* margin-top: 100px; */
-    height: 150vh;
     background-color: aqua;
     overflow: visible; 
     /* ^^this prevents margin collapse in children */

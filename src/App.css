@@ -1,6 +1,5 @@
 .App {
   text-align: center;
   background-color: var(--light-color-1);
-  height: 300vh;
   min-width: 400px;
 }

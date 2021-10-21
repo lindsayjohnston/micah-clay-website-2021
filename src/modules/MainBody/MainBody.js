@@ -2,7 +2,6 @@ import TopSection from '../TopSection/TopSection.js';
 import BodySection from  '../BodySection/BodySection.js';
 import { Component } from 'react';
 import promoVideo from '../../assets/videos/promoVideo.mp4';
-import testPhoto from '../../assets/photos/mc-bw-photo-on-deck-700x676px.png';
 import './MainBody.css';
 
 const sectionInfo =[

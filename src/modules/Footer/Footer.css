@@ -1,0 +1,8 @@
+.footer {
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.socialIcon {
+    color: var(--dark-color-1);
+}
