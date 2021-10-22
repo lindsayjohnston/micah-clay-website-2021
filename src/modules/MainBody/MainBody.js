@@ -11,7 +11,7 @@ const sectionInfo =[
     },
     {
         title: "MUSIC",
-        content: <video src={promoVideo} controls muted="true" loop="true" className= "sectionContent"></video>
+        content: <video src={promoVideo} controls  autoplay= "true" className= "sectionContent"></video>
     },
     {
         title: "CONTACT",
