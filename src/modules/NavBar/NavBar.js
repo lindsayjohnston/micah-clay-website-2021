@@ -13,8 +13,9 @@ return(
                     <img src= {logo} alt= "skull-logo"/>
                 </a> 
             </div>
-            <div className="sectionLabel"> <a href="#MUSIC"><h2>Music </h2></a> </div>
+            
             <div className="sectionLabel"> <a href="#ABOUT"><h2>About </h2></a> </div>
+            <div className="sectionLabel"> <a href="#MUSIC"><h2>Music </h2></a> </div>
             <div className="sectionLabel"> <a href="#CONTACT"><h2>Contact </h2></a> </div>
 
         </div>
