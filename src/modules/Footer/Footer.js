@@ -9,7 +9,8 @@ library.add(faFacebookSquare, faInstagramSquare, faYoutubeSquare);
 const footer = (props) =>{
 
     return (
-        <div class="footer">
+        <footer class="footer">
+            <div class="borderDivFooter">
             <div class="socialBar">
                 <a href="#facebook">
                     <FontAwesomeIcon className="socialIcon" icon={['fab', 'facebook-square']} size= "3x"/>
@@ -26,7 +27,9 @@ const footer = (props) =>{
                 </a>
 
             </div>  
-        </div> 
+            </div>
+            
+        </footer> 
     )
 }
 

@@ -7,7 +7,7 @@ const navBar = (props) => {
 
 return(
     <nav >
-        <div className= "borderDiv" >
+        <div className= "borderDivNav" >
             <div className="logo"> 
                 <a href="#top">
                     <img src= {logo} alt= "skull-logo"/>

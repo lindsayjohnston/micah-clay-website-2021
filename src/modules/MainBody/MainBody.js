@@ -25,12 +25,8 @@ class MainBody extends Component {
         //functions?
         
         return (
-            <div className="mainBody">
+            <div className="mainBody" id="top" >
                 <TopSection />
-
-                
-
-
                 
                 {sectionInfo.map (item => (
                     <BodySection 

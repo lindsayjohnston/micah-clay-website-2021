@@ -1,8 +1,22 @@
 .footer {
-    height: 200px;
+    width: 100%;
+    height: 75px;
     background-color: aquamarine;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.borderDivFooter{
+    border-top: 1px var(--dark-color-1) solid;
+    width: 80%;
+    margin: auto;
+    background-color: yellow;
 }
 
 .socialIcon {
     color: var(--dark-color-1);
+    margin: 10px;
+    background-color: tomato;
 }
