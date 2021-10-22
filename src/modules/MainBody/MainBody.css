@@ -1,6 +1,7 @@
 .mainBody{
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 100px 0px 75px 0px;
     overflow: visible; 
+    color: var(--dark-color-1)
     /* ^^this prevents margin collapse in children */
 }

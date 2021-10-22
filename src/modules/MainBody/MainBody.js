@@ -6,15 +6,15 @@ import './MainBody.css';
 
 const sectionInfo =[
     {
-        title: "About",
-        content: "This will be a bio."
+        title: "ABOUT",
+        content: <p className="sectionContent">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum, magna quis condimentum varius, lorem libero placerat magna, ut euismod sem quam congue nunc. Mauris faucibus leo ante, ac eleifend odio egestas et. Donec sed laoreet sapien. Morbi sollicitudin tempor ipsum at lacinia. Vivamus vitae orci nec tellus consectetur rhoncus. Duis sed volutpat magna, non tempus dolor. Morbi dictum lacinia sollicitudin. Duis a quam quis metus pulvinar consequat." </p>
     },
     {
-        title: "Music",
+        title: "MUSIC",
         content: <video src={promoVideo} controls className= "sectionContent"></video>
     },
     {
-        title: "Contact",
+        title: "CONTACT",
         content: "This will be contact info."
     }
 ]

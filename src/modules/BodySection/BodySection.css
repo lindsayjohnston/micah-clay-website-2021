@@ -1,8 +1,8 @@
 .bodySection {
-    /* height: 500px; */
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
     padding: 15px 0px;
-    border: 1px yellow solid;
+   
+    /* border: 1px yellow solid; */
 }
 
 .separatorGraphic {
@@ -13,5 +13,5 @@
 .sectionContent {
     max-width: 600px;
     width: 70%;
-    
+    margin: auto;
 }
