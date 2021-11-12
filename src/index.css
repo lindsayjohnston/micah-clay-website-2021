@@ -25,6 +25,10 @@ a:hover{
   color: var(--hover-link-color);
 }
 
+address {
+  font-style: unset;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

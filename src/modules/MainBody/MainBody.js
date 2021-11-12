@@ -6,16 +6,24 @@ import './MainBody.css';
 
 const sectionInfo =[
     {
-        title: "ABOUT",
-        content: <p className="sectionContent">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum, magna quis condimentum varius, lorem libero placerat magna, ut euismod sem quam congue nunc. Mauris faucibus leo ante, ac eleifend odio egestas et. Donec sed laoreet sapien. Morbi sollicitudin tempor ipsum at lacinia. Vivamus vitae orci nec tellus consectetur rhoncus. Duis sed volutpat magna, non tempus dolor. Morbi dictum lacinia sollicitudin. Duis a quam quis metus pulvinar consequat." </p>
+        title: "MUSIC",
+        content: <video src={promoVideo} controls  className= "sectionContent"></video>
     },
     {
-        title: "MUSIC",
-        content: <video src={promoVideo} controls  autoplay= "true" className= "sectionContent"></video>
+        title: "ABOUT",
+        content: <p className="sectionContent">Micah Clay is a singer-songwriter born and raised in the high desert of the Pacific North West and has been a vagabond traveling the country writing honest music rooted in the growth and change - the kind that is inevitable for all of us to experience.
+        <br></br>
+        <br></br>
+        Life shapes and molds us. Micah Clay hopes that his songs may bring some sort of encouragement to you along your sojourn.
+        You’re not alone, you are loved and you are worthy of love.
+        <br></br>
+        <br></br>
+        Okey, Alright, Fine.   </p>
     },
     {
         title: "CONTACT",
-        content: "This will be contact info."
+        content: 
+        <address> <a href="mailto:musicofmicahclay@gmail.com">musicofmicahclay@gmail.com</a></address>
     }
 ]
 
