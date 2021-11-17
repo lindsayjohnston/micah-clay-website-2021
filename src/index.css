@@ -1,5 +1,6 @@
 :root {
-  --dark-color-1: #1D1E35;
+  /* --dark-color-1: #1D1E35; */
+  --dark-color-1: magenta;
   --light-color-1: #faf5ea; 
   --hover-link-color: #4c4c50;
 }
