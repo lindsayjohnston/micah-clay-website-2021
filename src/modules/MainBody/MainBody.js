@@ -2,12 +2,22 @@ import TopSection from '../TopSection/TopSection.js';
 import BodySection from  '../BodySection/BodySection.js';
 import { Component } from 'react';
 import promoVideo from '../../assets/videos/promoVideo.mp4';
+import ReactPlayer from 'react-player';
 import './MainBody.css';
 
 const sectionInfo =[
     {
         title: "MUSIC",
-        content: <video src={promoVideo} controls  className= "sectionContent"></video>
+        content: 
+        <ReactPlayer className= "sectionContent"
+       url='https://micah-clay-media.s3.us-east-2.amazonaws.com/promoVideo.mp4'
+       playing={true}
+       loop={true}
+       muted={true}
+       controls={true}
+       width={null}
+       height={null}
+     /> 
     },
     {
         title: "ABOUT",
