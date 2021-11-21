@@ -13,7 +13,8 @@ body {
   font-family: 'OptimaMedium', 'OptimaB', 'Optima';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  width: 100vw;
+  min-width: 300px;
 }
 
 a {
@@ -55,3 +56,8 @@ code {
     font-weight: bold;
 }
 
+/* @media screen and (max-width: 500px){
+  html{
+      width: 100vw;
+  }
+} */

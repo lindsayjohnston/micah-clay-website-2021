@@ -1,7 +1,15 @@
 .mainBody{
     /* background-color: aqua; */
-    padding: 100px 0px 75px 0px;
+    padding: 120px 0px 75px 0px;
     overflow: visible; 
-    color: var(--dark-color-1)
+    min-width: 300px;
     /* ^^this prevents margin collapse in children */
+    color: var(--dark-color-1)
+    
 }
+
+/* @media screen and (max-width: 500px){
+    .mainBody{
+        padding-bottom: 7px;
+    }
+} */

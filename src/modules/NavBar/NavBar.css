@@ -3,7 +3,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    min-width: 400px;
+    min-width: 300px;
     background-color: var(--light-color-1);
     z-index: 1;
 }
@@ -23,5 +23,6 @@ nav {
 @media screen and (max-width: 500px){
     nav{
         font-size: .65em;
+        /* min-width: unset; */
     }
 }
