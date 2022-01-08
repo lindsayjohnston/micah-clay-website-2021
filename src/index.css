@@ -13,7 +13,7 @@ body {
   font-family: 'OptimaMedium', 'OptimaB', 'Optima';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100vw;
+  /* width: 100vw; */
   min-width: 300px;
 }
 

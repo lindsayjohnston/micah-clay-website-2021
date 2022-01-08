@@ -1,5 +1,4 @@
 import './NavBar.css';
-import logo from '../../assets/graphics/mc_skull_web_logo_106x78.png';
 
 const navBar = (props) => {
 

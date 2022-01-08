@@ -1,0 +1,16 @@
+.bocaloudFooter{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 57px;
+}
+
+.bocaloudFooter p{
+    color: var(--dark-color);
+    margin: 0;
+    font-size: small;
+}
+.bocaloudFooter p:hover{
+    color: var(--main-color)
+}
+

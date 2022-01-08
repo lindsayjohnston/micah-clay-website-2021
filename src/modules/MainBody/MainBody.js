@@ -1,7 +1,6 @@
 import TopSection from '../TopSection/TopSection.js';
 import BodySection from  '../BodySection/BodySection.js';
 import { Component } from 'react';
-import promoVideo from '../../assets/videos/promoVideo.mp4';
 import ReactPlayer from 'react-player';
 import './MainBody.css';
 
