@@ -26,12 +26,12 @@ const footer = (props) =>{
                         className="socialIcon" icon={['fab', 'youtube']} size= "2x"/>
                 </a>
 
-                <a target="_blank" rel="noreferrer" href="https://music.apple.com/us/artist/micah-clay/1590294490">
+                <a target="_blank" rel="noreferrer" href="https://music.apple.com/artist/1676684615">
                     <FontAwesomeIcon
                         className="socialIcon" icon={['fab', 'apple']} size= "2x"/>
                 </a>
 
-                <a target="_blank" rel="noreferrer" href="https://open.spotify.com/artist/1Fncst545DnuaMo6ITPEz5?si=4zbIbiRCRDumi6m9N_GixQ">
+                <a target="_blank" rel="noreferrer" href="https://open.spotify.com/artist/6wOgwkOI0ENxMNUZf3OFOu">
                     <FontAwesomeIcon
                         className="socialIcon" icon={['fab', 'spotify']} size= "2x"/>
                 </a>
